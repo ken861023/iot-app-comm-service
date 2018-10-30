@@ -1,10 +1,4 @@
-type GeoPoint {
-     longitude: String!
-     latitude: String!
-   }
-type Query {
-    location: GeoPoint
-}
+
 // require all dependencies to set up server
 import * as express from "express";
 import { ApolloServer, gql } from "apollo-server-express";
